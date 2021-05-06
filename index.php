@@ -23,10 +23,7 @@ if (isset($_FILES['access'])) {
     <style>
         .vertical-center {
             min-height: 100%;
-            /* Fallback for browsers do NOT support vh unit */
             min-height: 100vh;
-            /* These two lines are counted as one :-)       */
-
             display: flex;
             align-items: center;
         }
@@ -35,13 +32,13 @@ if (isset($_FILES['access'])) {
             display: block;
             text-align: center;
             font-family: Helvetica, Arial, sans-serif;
-            font-size: 12px;
+            font-size: 1rem;
         }
 
         .file-upload .file-select {
             display: block;
-            border: 2px solid #dce4ec;
-            color: #34495e;
+            border: 2px solid #e9f5eb;
+            color: #fff;
             cursor: pointer;
             height: 40px;
             line-height: 40px;
@@ -52,7 +49,7 @@ if (isset($_FILES['access'])) {
         }
 
         .file-upload .file-select .file-select-button {
-            background: #dce4ec;
+            background: #28a745;
             padding: 0 10px;
             display: inline-block;
             height: 40px;
@@ -66,7 +63,7 @@ if (isset($_FILES['access'])) {
         }
 
         .file-upload .file-select:hover {
-            border-color: #34495e;
+            border-color: #218838;
             transition: all .2s ease-in-out;
             -moz-transition: all .2s ease-in-out;
             -webkit-transition: all .2s ease-in-out;
@@ -74,7 +71,7 @@ if (isset($_FILES['access'])) {
         }
 
         .file-upload .file-select:hover .file-select-button {
-            background: #34495e;
+            background: #218838;
             color: #FFFFFF;
             transition: all .2s ease-in-out;
             -moz-transition: all .2s ease-in-out;
